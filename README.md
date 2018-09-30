@@ -1,6 +1,6 @@
 # BitcoinTicker
 Small app to track the value of bitcoin.
 
-![Finished App](http://i.giphy.com/l0HlQGzz2MQCKIBI4.gif)
+![Finished App](https://media.giphy.com/media/1AjjKRezeKTCInGS8y/giphy.gif)
 
 Copyright © The App Brewery
