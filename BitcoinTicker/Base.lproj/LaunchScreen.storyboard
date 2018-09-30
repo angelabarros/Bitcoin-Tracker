@@ -24,9 +24,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="ut3-lb-CLh">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bitcoin tracker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbF-fW-rpj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bitcoin tracker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbF-fW-rpj">
                                 <rect key="frame" x="132" y="323" width="111" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -34,6 +33,8 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="kbF-fW-rpj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0Pd-ND-cZu"/>
+                            <constraint firstItem="kbF-fW-rpj" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="7Od-dO-FYv"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="ut3-lb-CLh" secondAttribute="bottom" id="EaZ-t1-8qS"/>
                             <constraint firstItem="ut3-lb-CLh" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="LEJ-T6-PRl"/>
                             <constraint firstAttribute="trailing" secondItem="ut3-lb-CLh" secondAttribute="trailing" id="ZbK-KE-6nS"/>
